@@ -1,57 +1,55 @@
-# Project Name
+# Azure IoT Hands on Labs
 
-(short, 1-3 sentenced, description of the project)
+Labs using Azure Services to build Azure IoT End to End Solutions connecting real & simulated devices to Azure IoT Hub.
 
-## Features
+![Imported Script](images/Lab.png "Header Image")
 
-This project framework provides the following features:
+## Modules
 
-* Feature 1
-* Feature 2
-* ...
+### Module 1: Introduction to Azure IoT Hub and Connect MXChip
 
-## Getting Started
+**Duration**: 60-90 minutes
 
-### Prerequisites
+[Azure IoTHub Lab with MXChip](/IoTHub/README.md)
 
-(ideally very short, if any)
+### Module 2: Connect Pi Simulator to IoT Hub
 
-- OS
-- Library version
-- ...
+**Duration**: 30 minutes
 
-### Installation
+[Azure IoTHub Pi Simulator Lab](/IoTHub-PiSimulator/README.md)
 
-(ideally very short)
+### Module 3: Create Azure Time Series Insights and Visualize Device Data
 
-- npm install [package name]
-- mvn install
-- ...
+**Duration**: 60 minutes
 
-### Quickstart
-(Add steps to get up and running quickly)
+[Time Series Insights Lab](/timeseriesinsights/README.md)
 
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
+### Module 4: Capture Device Events and Send Notifications
 
+**Duration**: 30 minutes
 
-## Demo
+[Azure IoTHub with Event Grid Lab](/EventGrid/README.md)
 
-A demo app is included to show how to use the project.
+### Module 5: Cold Path Storage
 
-To run the demo, follow these steps:
+**Duration**: 60-90 minutes
 
-(Add steps to start up the demo)
+[Azure Date Lake Store Lab](/DatalakeStore/README.md)
 
-1.
-2.
-3.
+### Module 6: Hot Path Analytics
 
-## Resources
+**Duration**: 60 minutes
 
-(Any additional resources or related projects)
+[Cosmos DB Lab](/CosmosDB/README.md)
 
-- Link to supporting information
-- Link to similar sample
-- ...
+### Module 7: Batch Analytics
+
+**Duration**: 60 minutes
+
+[Azure Date Lake Analytics Lab](/DatalakeAnalytics/README.md)
+
+### Module 8: Load Test using Device Simulator
+
+**Duration**: 30 minutes
+
+[Device Simulator](/DeviceSimulator/README.md)
