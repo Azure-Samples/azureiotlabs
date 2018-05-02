@@ -1,4 +1,4 @@
-# Create Azure Time Series Insights and Visualize Device Data
+# Visualize Time Series Data with Azure Time Series Insights
 
 ![Time Series Insights](images/timeseriesinsights.jpg)
 
