@@ -1,4 +1,4 @@
-# Capture Device Events using Event Grid and Notify
+# React to Critical Device Lifecycle Events and Trigger Actions
 
 ![Header Image](images/eventgrid.jpg)
 

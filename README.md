@@ -18,13 +18,13 @@ Labs using Azure Services to build Azure IoT End to End Solutions connecting rea
 
 [Azure IoTHub Pi Simulator Lab](/IoTHub-PiSimulator/README.md)
 
-### Module 3: Create Azure Time Series Insights and Visualize Device Data
+### Module 3: Visualize Time Series Data with Azure Time Series Insights
 
 **Duration**: 60 minutes
 
 [Time Series Insights Lab](/timeseriesinsights/README.md)
 
-### Module 4: Capture Device Events and Send Notifications
+### Module 4: React to Critical Device Lifecycle Events and Trigger Actions
 
 **Duration**: 30 minutes
 
