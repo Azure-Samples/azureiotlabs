@@ -10,7 +10,7 @@ Automatic device management in Azure IoT Hub automates many of the repetitive an
 
 In this lab you will learn how to
 
-* Automates repetitive and complex tasks of managing large device fleets
+* Automate repetitive and complex tasks of managing large device fleets
 
 * In this lab it is assumed that you already have an IoT Hub deployed
 
