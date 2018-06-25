@@ -136,3 +136,69 @@ Review your configuration information, then select **Submit**.
 Results of applied changes
 
 ![Create App](images/result.png)
+
+Check device twin to see the configuration updates. Go to **IoT Devices**, click on **shinagawahvac1** and click on **device twin**. Similarly check all devices located in **Shinagawa**
+
+![Create App](images/devicetwinupdate.png)
+
+Below is the device twin updated with properties
+
+```json
+{
+  "deviceId": "shinagawahvac1",
+  "etag": "AAAAAAAAAAU=",
+  "deviceEtag": "OTc4NTUyNjk1",
+  "status": "enabled",
+  "statusUpdateTime": "0001-01-01T00:00:00",
+  "connectionState": "Disconnected",
+  "lastActivityTime": "0001-01-01T00:00:00",
+  "cloudToDeviceMessageCount": 0,
+  "authenticationType": "sas",
+  "x509Thumbprint": {
+    "primaryThumbprint": null,
+    "secondaryThumbprint": null
+  },
+  "version": 6,
+  "tags": {
+    "location": {
+      "city": "Shinagawa"
+    }
+  },
+  "properties": {
+    "desired": {
+      "hvacsettings": {
+        "temperature": "74",
+        "humidity": 28
+      },
+      "$metadata": {
+        "$lastUpdated": "2018-06-19T21:57:51.8460184Z",
+        "$lastUpdatedVersion": 4,
+        "hvacsettings": {
+          "$lastUpdated": "2018-06-19T21:57:51.8460184Z",
+          "$lastUpdatedVersion": 4,
+          "temperature": {
+            "$lastUpdated": "2018-06-19T21:57:51.8460184Z",
+            "$lastUpdatedVersion": 4
+          },
+          "humidity": {
+            "$lastUpdated": "2018-06-19T21:57:51.8460184Z",
+            "$lastUpdatedVersion": 4
+          }
+        }
+      },
+      "$version": 4
+    },
+    "reported": {
+      "$metadata": {
+        "$lastUpdated": "2018-06-19T21:34:38.2330387Z"
+      },
+      "$version": 1
+    }
+  },
+  "configurations": {
+    "shinagawahvacsetting": {
+      "status": "Applied"
+    }
+  }
+}
+```
