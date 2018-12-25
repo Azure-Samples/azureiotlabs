@@ -66,7 +66,7 @@ Make sure you select the resource group you created in previous step.
 
 In the Name field, enter a unique name for your IoT hub. The name of your IoT hub must be **unique** across all IoT hubs.
 
-In the Tier filed, select **S1 tier**.
+In the Tier field, select **S1 tier**.
 
 You can choose from several tiers depending on how many features you want and how many messages you send through your solution per day. The free tier is intended for testing and evaluation. It allows 500 devices to be connected to the IoT hub and up to 8,000 messages per day. Each Azure subscription can create one IoT Hub in the free tier.
 
