@@ -66,7 +66,7 @@ Query for **Tokyo** devices
 
 ## Create a configuration
 
-There are five steps to create a configuration. The following sections walk through each one.
+There are five steps to create a configuration. The following sections walk through each one.  To do this, navigate to your IoT Hub and select IoT device configuration under Automatic Device Management.
 
 ### Step 1: Name and Label
 
