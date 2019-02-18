@@ -131,7 +131,7 @@ Integrate Logic App with IoTHub via Event Grid
 
 Click on Event Subscription
 
-![Integrated with IoTHub](images/14_empty_event_subscription.png "")
+![Integrated with IoTHub](images/14_empty_event_subscription.png)
 
 Copy the URL from previous steps into Subscriber Endpoint and click create
 
