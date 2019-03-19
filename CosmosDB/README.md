@@ -66,7 +66,7 @@ Edit existing query to Add new query to consume data from IoTHub and store data 
 
 ```sql
 SELECT
-    *, System.Timestamp as time
+    deviceId, avg(temperature) AS avgtemp
 INTO
     CosmosDB
 FROM
