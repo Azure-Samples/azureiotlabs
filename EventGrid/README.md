@@ -4,7 +4,7 @@
 
 Azure IoT Hub integrates with Azure Event Grid so that you can send event notifications to other services and trigger downstream processes. Configure your business applications to listen for IoT Hub events so that you can react to critical events in a reliable, scalable, and secure manner. For example, build an application to perform multiple actions like updating a database, creating a ticket, and delivering an email notification every time a new IoT device is registered to your IoT hub.
 
-<iframe src="https://channel9.msdn.com/Shows/Internet-of-Things-Show/Azure-IoT-Hub-Integration-with-Azure-Event-Grid/player" width="480" height="270" allowFullScreen frameBorder="0"></iframe>
+[![Watch the video](https://img.youtube.com/vi/IDYAX4K7rfQ/hqdefault.jpg)](https://www.youtube.com/watch?v=IDYAX4K7rfQ)
 
 In this lab you will learn how to
 
@@ -22,9 +22,9 @@ Click on **Create a resource**
 
 ![Create Resource](images/create_resource.png)
 
-Click on **Enterprise Integration**
+Click on **Integration**
 
-![Enterprise Integration](images/enterprise_integration.png)
+![Enterprise Integration](images/create_resource_integration.png)
 
 Click on **Logic Apps**
 
@@ -42,7 +42,7 @@ Select HTTP Request
 
 ![Select HTTP Request](images/04_Http_Request.png)
 
-Provide a Sample Payload
+Provide a Sample Payload. More information about the payload schema can be [found here](https://docs.microsoft.com/en-us/azure/event-grid/event-schema-iot-hub).
 
 ```code
 [{
@@ -125,17 +125,19 @@ Create Email template
 
 ## Integrate With IoTHub
 
-Integrate Logic App with IoTHub via Event Grid
+Integrate Logic App with IoTHub via **Events** and **+ Event Subscription**
 
 ![Imported Script](images/13_IoTHub_EventHub.png "Integrated with IoTHub")
 
-Click on Event Subscription
+Give the new Event Subscription a **Name** and select **Endpoint Type** Web Hook. After that, click on **Select an endpoint**.
 
-![Integrated with IoTHub](images/14_empty_event_subscription.png "")
+![Create Event Subscription](images/14_create_event_subscription.png)
 
-Copy the URL from previous steps into Subscriber Endpoint and click create
+Copy the URL from previous steps into Subscriber Endpoint and click **Confirm Selection**
 
 ![Integrated with IoTHub](images/15_device_events.png)
+
+Finally click the **Create** button.
 
 ## Add Device and Test Notification
 
