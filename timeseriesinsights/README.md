@@ -59,7 +59,7 @@ Select humidity and Split By ID. You will see data flowing from two devices. MXC
 
 Right Click to Explore events. You can download events in CSV and JSON format by clicking on **CSV or JSON** buttons
 
-![Visualize Data](images/08_Visual3.png)
+![Visualize Data](images/tsi_3.png)
 
 Create a perspective by clicking on the image shown below
 
