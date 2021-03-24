@@ -51,11 +51,11 @@ Go To Time Series Insights Explorer
 
 Split By ID. You will see data flowing from two devices. MXChip and Pi Simulator. 
 
-![Visualize Data](images/06_Visual1.png)
+![Visualize Data](images/tsi_1.png)
 
 Select humidity and Split By ID. You will see data flowing from two devices. MXChip and Pi Simulator.
 
-![Visualize Data](images/07_Visual2.png)
+![Visualize Data](images/tsi_2.png)
 
 Right Click to Explore events. You can download events in CSV and JSON format by clicking on **CSV or JSON** buttons
 
