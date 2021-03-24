@@ -132,31 +132,27 @@ MyNodeDevice: The name of the device you're registering. Use MyNodeDevice as sho
 
 Azure CLI
 
-Copy
-
-Try It
+```
 az iot hub device-identity create --hub-name YourIoTHubName --device-id MyNodeDevice
+```
  Note
 
 If you get an error running device-identity, install the Azure IoT Extension for Azure CLI. Run the following command to add the Microsoft Azure IoT Extension for Azure CLI to your Cloud Shell instance. The IoT Extension adds commands that are specific to IoT Hub, IoT Edge, and IoT Device Provisioning Service (DPS) to Azure CLI.
 
 Azure CLI
 
-Copy
-
-Try It
+```
 az extension add --name azure-iot
+```
 
 2. Run the following commands in Azure Cloud Shell to get the device connection string for the device you just registered:
 
 YourIoTHubName: Replace this placeholder below with the name you choose for your IoT hub.
 
 Azure CLI
-
-Copy
-
-Try It
-az iot hub device-identity connection-string show --hub-name YourIoTHubName --device-id MyNodeDevice --output table
+```
+iot hub device-identity connection-string show --hub-name YourIoTHubName --device-id MyNodeDevice --output table
+```
 Make a note of the device connection string, which looks like:
 
 HostName={YourIoTHubName}.azure-devices.net;DeviceId=MyNodeDevice;SharedAccessKey={YourSharedAccessKey}
@@ -203,9 +199,9 @@ You use this value later in the quickstart.
 9. To verify the telemetry data sent to Azure, run the following command in Azure Cloud Shell:
 
 Azure CLI
-
-Copy
+```
 az iot hub monitor-events --hub-name YourIoTHubName --output table
+```
 
 
 
