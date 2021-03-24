@@ -1,7 +1,5 @@
 # Exercise 1: Getting Started with Azure 
 
-Duration: 10 mins
-
 ## Instructions
 
 1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.
@@ -31,15 +29,11 @@ Duration: 10 mins
 
    ![](images/close_tab.png)
 
-6. On the **Sign into Microsoft Azure** tab, you will see the login screen, enter the following username, and, then click on **Next**.
-
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+6. On the **Sign into Microsoft Azure** tab, you will see the login screen, enter the username which is provided in the Lab Environment tab and, then click on **Next**.
 
    ![](images/enter_email.png)
 
-7. Now enter the following password and click on **Sign in**. 
-
-   * Password: <inject key="AzureAdUserPassword"></inject>
+7. Now enter the password which is provided in the Lab Environment tab and click on **Sign in**. 
 
    ![](images/enter_password.png)
 
@@ -61,7 +55,8 @@ Duration: 10 mins
  
  # Introduction to Azure IoT Hub
 
-![IoT Hub](images/iothub.jpg)
+   
+   ![IoT Hub](images/iothub.jpg)
 
 Azure IoT Hub is a fully managed service that enables reliable and secure bidirectional communications between millions of IoT devices and a solution back end. Azure IoT Hub:
 
@@ -93,7 +88,7 @@ Azure IoT Hub is a fully managed service that enables reliable and secure bidire
 
 This Lab assumes you are using MXChip as the Device
 
-![MXChip](images/MxChip.jpg)
+   ![MXChip](images/MxChip.jpg)
 
 ### Prepare the MXChip by 
 
@@ -110,7 +105,7 @@ This Lab assumes you are using MXChip as the Device
 2. Micro-USB cable
 Once Device Connects to IoTHub, messages flow into IoThub
 
-![](images/iot_hardware1.png)
+   ![](images/iot_hardware1.png)
 
 * To connect the DevKit to your computer, follow these steps:
 
@@ -118,7 +113,7 @@ Once Device Connects to IoTHub, messages flow into IoThub
 2.Connect the Micro-USB end to the DevKit.
 3.The green LED for power confirms the connection.
 
-![](images/iot_hardware2.png)
+   ![](images/iot_hardware2.png)
 
 
 ## Register a device
@@ -165,35 +160,35 @@ You use this value later in the quickstart.
 1. Download the latest version of GetStarted firmware for IoT DevKit.
 2. Make sure IoT DevKit connect to your computer via USB. Open File Explorer there is a USB mass storage device called AZ3166.
 
- ![](images/devkit_1.png)
+   ![](images/devkit_1.png)
 
 3. Drag and drop the firmware just downloaded into the mass storage device and it will flash automatically.
 
-![](images/devkit_2.png)
+   ![](images/devkit_2.png)
 
 
 4. On the DevKit, Hold down button B, push and release the Reset button, and then release button B. Your DevKit enters AP mode. To confirm, the screen displays the service set identifier (SSID) of the DevKit and the configuration portal IP address.
 
-![](images/devkit_3.png)
+   ![](images/devkit_3.png)
 
 
 5. Use a Web browser on a different Wi-Fi enabled device (computer or mobile phone) to connect to the IoT DevKit SSID displayed in the previous step. If it asks for a password, leave it empty.
 
-![](images/devkit_4.png)
+   ![](images/devkit_4.png)
 
 
 6. Open 192.168.0.1 in the browser. Select the Wi-Fi that you want the IoT DevKit connect to, type the Wi-Fi password, then paste the device connection string you made note of previously. Then click Save.
 
-![](images/devkit_5.png)
+   ![](images/devkit_5.png)
 
 7. The WiFi information and device connection string will be stored into the IoT DevKit when you see the result page.
 
-![](images/devkit_6.png)
+   ![](images/devkit_6.png)
 
 8. The IoT DevKit reboots in a few seconds. On the DevKit screen, you see the IP address for the DevKit follows by the telemetry data including temperature and humidity value with message count send to Azure IoT Hub.
 
-![](images/devkit_7.png)
-![](images/devkit_8.png)
+   ![](images/devkit_7.png)
+   ![](images/devkit_8.png)
 
 
 9. To verify the telemetry data sent to Azure, run the following command in Azure Cloud Shell:
@@ -212,4 +207,4 @@ az iot hub monitor-events --hub-name YourIoTHubName --output table
 
 
 
-![Data Flow](images/06_IoTHub_DeviceCreated_Data_Flowing.png)
+   ![Data Flow](images/06_IoTHub_DeviceCreated_Data_Flowing.png)
