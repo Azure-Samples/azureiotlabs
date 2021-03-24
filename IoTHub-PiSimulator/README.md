@@ -14,7 +14,7 @@ Connect a Simulator to your IoT Hub and stream data.
 
 ## Create a Device
 
-* Go To your IoT Hub in the portal and click on **IoT Devices** and  Click on **+ Add**
+* Go To your IoT Hub in the portal and click on **IoT Devices** and  Click on **+ NEW**
 
 
 ![Resource Group](images/new.png)
