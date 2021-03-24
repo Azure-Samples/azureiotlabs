@@ -13,7 +13,7 @@ Time Series Insights has four key jobs:
 * Third, Time Series Insights provides out-of-the-box visualization via the TSI explorer. 
 * Fourth, Time Series Insights provides a query service, both in the TSI explorer and by using APIs that are easy to integrate for embedding your time series data into custom applications.
 
-In this lab you will learn
+In this lab you will learn to
 
 * explore
 * analyze time series data of your IoT solutions or connected things
