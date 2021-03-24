@@ -61,13 +61,17 @@ Click on the more actions and select Explore raw events. You can download events
 
 ![Visualize Data](images/tsi_3.png)
 
+![Visualize Data](images/tsi_4.png)
+
+
 Click **+** to add a new query
 
-![Visualize Data](images/10_visual10.png)
+![Visualize Data](images/tsi_5.png)
+
 
 Select Temperature and split by Device ID and click on perspective image.
 
-![Visualize Data](images/11_visual11.png)
+![Visualize Data](images/tsi_6.png)
 
 Create a chart by selecting a timeframe with drag feature
 
