@@ -57,13 +57,9 @@ Select humidity and Split By ID. You will see data flowing from two devices. MXC
 
 ![Visualize Data](images/tsi_2.png)
 
-Right Click to Explore events. You can download events in CSV and JSON format by clicking on **CSV or JSON** buttons
+Click on the more actions and select Explore raw events. You can download events in CSV and JSON format by clicking on **CSV or JSON** buttons
 
 ![Visualize Data](images/tsi_3.png)
-
-Create a perspective by clicking on the image shown below
-
-![Visualize Data](images/perspective.png)
 
 Click **+** to add a new query
 
@@ -80,10 +76,6 @@ Create a chart by selecting a timeframe with drag feature
 Create a Chart by adding a predicate
 
 ![Visualize Data](images/predicate.png)
-
-Perspective with 4 different charts and also changed Title
-
-![Visualize Data](images/14_Visual_dashboard.png)
 
 Click on Heatmap
 
