@@ -14,30 +14,6 @@ In this lab Learn how to
 * how to create and manage batch, real-time, and interactive analytics jobs, and 
 * how to query using the U-SQL language
 
-## Create Azure Data Lake Analytics Service
-
-Create Data Lakae Analytics service to mine data stored in Data Lake Store.
-
-Click on **Create a resource**
-
-![Create Datalake Analytics Service](images/create_resource.png)
-
-Click on **Data + Analytics**
-
-![Create Datalake Analytics Service](images/dataanalytics.png)
-
-Click on **Data Lake Analytics**
-
-![Create Datalake Analytics Service](images/01_Create_Data_Lake_Analytics_Service.png)
-
-Pick the Data Lake Store where device telemetry data is being stored from Stream Analytics job
-
-![Pick A Store](images/02_Create_Data_Lake_Pick_Store.png)
-
-Use existing resource group and click on Create button
-
-![Create Service](images/03_Create_Data_Lake_Analytics_Success.png)
-
 ## Create Sample Data and Install Extensions
 
 Click on Sample scripts 
