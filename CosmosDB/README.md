@@ -11,38 +11,8 @@ Azure Cosmos DB provides five consistency levels: strong, bounded-staleness, ses
 
 In this lab you will learn
 
-* how to set up a CosmosDB
 * streaming analytics with windowing techniques
 * to Store Time Series Data in CosmosDB
-
-## Create Cosmos DB Account
-
-Click on **Create a resource**
-
-![Create Resource group](images/create_resource.png)
-
-Click on **Databases**
-
-![Create Databases](images/databases.png)
-
-
-Click on **Azure Cosmos DB**
-
-![Create Cosmos DB](images/01_Create_CosmosDB.png)
-
-## Pick an API
-
-For this tutorial we will use SQL API.
-
-Available APIs are
-
-1. SQL API: A schema-less JSON database engine with rich SQL querying capabilities.
-2. MongoDB API: A massively scalable MongoDB-as-a-Service powered by Azure Cosmos DB platform. Compatible with existing MongoDB libraries, drivers, tools, and applications.
-3. Cassandra API: A globally distributed Cassandra-as-a-Service powered by Azure Cosmos DB platform. Compatible with existing Apache Cassandra libraries, drivers, tools, and applications.
-4. Graph (Gremlin) API: A fully managed, horizontally scalable graph database service that makes it easy to build and run applications that work with highly connected datasets supporting Open Graph APIs (based on the Apache TinkerPop specification, Apache Gremlin).
-5. Table API: A key-value database service built to provide premium capabilities (for example, automatic indexing, guaranteed low latency, global distribution) to existing Azure Table storage applications without making any app changes
-
-![Create Cosmos DB](images/02_Create_CosmosDB_Submit.png)
 
 ## Stop Stream Analytics
 
