@@ -14,36 +14,36 @@ Connect a Simulator to your IoT Hub and stream data.
 
 ## Create a Device
 
-Go To your IoT Hub in the portal and click on **IoT Devices**
+* Go To your IoT Hub in the portal and click on **IoT Devices** and  Click on **+ NEW**
 
 
-![Resource Group](images/iot_devices.png)
+![Resource Group](images/new.png)
 
-Click on **+ Add** and enter a **Device ID** and click **Save**. 
+* Enter a **Device ID** and click **Save**. 
 
-![Resource Group](images/add_device.png)
+![Resource Group](images/new1.png)
 
-Click on the device and copy the primary key connection string. 
+* Click on the device and copy the primary key connection string. 
 
 ![Resource Group](images/connection-string.png)
 
-Click on the link below to go to the PI Simulator 
+* Click on the link below to go to the PI Simulator 
 
 [PI Simulator](https://azure-samples.github.io/raspberry-pi-web-simulator/#GetStarted)
 
-Replace the connection string with the primary key connection string copied in the previous steps
+* Replace the connection string with the primary key connection string copied in the previous steps
 
 ![Resource Group](images/pi_connection_string_before.png)
 
-After you copy the connection string should look like below
+* After you copy the connection string should look like below
 
 ![Resource Group](images/pi_connection_string_after.png)
 
-Click Run and start sending messages. LED will start blinking
+* Click Run and start sending messages. LED will start blinking
 
 ![Resource Group](images/pi_message.png)
 
-Messages will start flowing into IoT Hub
+* Messages will start flowing into IoT Hub
 
 ![Resource Group](images/iothub_messages.png)
 

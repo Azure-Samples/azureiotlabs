@@ -6,35 +6,6 @@
 
 Azure Data Lake Store is an enterprise-wide hyper-scale repository for big data analytic workloads. Azure Data Lake enables you to capture data of any size, type, and ingestion speed in one single place for operational and exploratory analytics. Data Lake Store can store trillions of files. A single file can be larger than one petabyte in size. This makes Data Lake Store ideal for storing any type of data including massive datasets like high-resolution video, genomic and seismic datasets, medical data, and data from a wide variety of industries.
 
-## Create Azure Data Lake Store
-
-Create a hyper scale data lake store to store IoT Data. Click on **Create a resource**
-
-![Create Datalake Store](images/create_resource.png)
-
-Click on **Data + Analytics**
-
-![Create Datalake Store](images/dataanalytics.png)
-
-Click on **Data Lake Store**
-
-![Create Datalake Store](images/01_Create_Datalake_Store.png)
-
-During creation of data lake you have the choice to encrypt the store
-
-Data Lake Store protects your data assets and extends your on-premises security and governance controls to the cloud.
-
-Your data is
-
-* always encrypted
-* while in motion using SSL
-* at rest using service or user-managed HSM-backed keys in Azure Key Vault.
-
-Single sign-on (SSO), multi-factor authentication, and seamless management of millions of identities is built-in through Azure Active Directory. Authorize users and groups with fine-grained POSIX-based ACLs for all data in your store and enable role-based access controls. Meet security and regulatory compliance needs by auditing every access or configuration change to the system.
-
-Click on **Create** button
-
-![Create Datalake Store](images/02_Create_Datalake_Store_Submit.png)
 
 ## Explore Data in Data Lake Store
 
@@ -56,27 +27,7 @@ You should have the folder structure below in place to start streaming data to d
 
 ![Explore Data](images/06_Datalake_Store_Date_Explore_created_folder.png)
 
-### Create Stream Analytics Job
 
-Azure Stream Analytics is a managed event-processing engine set up real-time analytic computations on streaming data. The data can come from devices, sensors, web sites, social media feeds, applications, infrastructure systems, and more
-
-<iframe src="https://channel9.msdn.com/Shows/Internet-of-Things-Show/Stream-Analytics-in-IoT-solutions/player" width="480" height="270" allowFullScreen frameBorder="0"></iframe>
-
-Create a hyper scale data lake store to store IoT Data. Click on **Create a resource**
-
-![Create Datalake Store](images/create_resource.png)
-
-Click on **Data + Analytics**
-
-![Create Datalake Store](images/dataanalytics.png)
-
-Click on **Stream Analytics Job**
-
-![Create Stream Analytics Job](images/07_Create_Stream_Analytics_Job.png)
-
-Stream Analytics job cab be created to run on the cloud as well as on the Edge. You will chose to run this on the cloud
-
-![Create Stream Analytics Job](images/08_Create_Stream_Analytics_Job_submit.png)
 
 Add Input for Streaming Job
 
